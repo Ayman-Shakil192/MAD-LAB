@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">intents</string>
+    <string name="if_you_click_on_explicit_example_we_will_navigate_to_second_activity_within_app_and_if_you_click_on_implicit_example_android_homepage_will_open_in_browser">If you click on Explicit example we will navigate to second activity within App and if you click on Implicit example android homepage will open in Browser</string>
+    <string name="explicit_intent_example">EXPLICIT INTENT EXAMPLE</string>
+    <string name="implicit_intent_example">IMPLICIT INTENT EXAMPLE</string>
+    <string name="this_is_the_second_activity">This is the second activity</string>
+</resources>

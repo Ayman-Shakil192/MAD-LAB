@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">date_picker</string>
+    <string name="date_picker_test">Date Picker Test</string>
+    <string name="change_type">Change Type</string>
+</resources>

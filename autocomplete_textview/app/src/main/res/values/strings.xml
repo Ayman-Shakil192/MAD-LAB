@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">autocomplete_textview</string>
+    <string name="enter_your_country">Enter your country:</string>
+    <string-array name="lang">
+        <item>Canada</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+    </string-array>
+</resources>

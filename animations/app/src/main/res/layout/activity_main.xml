@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/alert_dialog"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmsce"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textview2"
+        android:layout_alignStart="@+id/textview1"
+        android:layout_alignLeft="@+id/textview1"
+        android:layout_alignEnd="@+id/textview2"
+        android:layout_alignRight="@+id/textview2"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/forest" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fade"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:onClick="fade"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/rotate"
+        android:onClick="clockwise"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/move"
+        android:onClick="move"
+        tools:ignore="UsingOnClickInXml" />
+
+</RelativeLayout>

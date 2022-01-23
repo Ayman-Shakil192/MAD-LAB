@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">toggle_button</string>
+    <string name="check_state">Check State</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="toggle_button">toggle_button</string>
+    <string name="toggle">toggle</string>
+    <!--    <string name="togglebutton">ToggleButton</string>-->
+</resources>

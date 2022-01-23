@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/teal_200"
+        android:padding="10dp"
+        android:text="@string/if_you_click_on_explicit_example_we_will_navigate_to_second_activity_within_app_and_if_you_click_on_implicit_example_android_homepage_will_open_in_browser"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:id="@+id/explicit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explicit_intent_example"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/implicit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/implicit_intent_example"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+</LinearLayout>

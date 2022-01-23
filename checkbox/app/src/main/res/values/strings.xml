@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">checkbox</string>
+    <string name="chocolate">chocolate</string>
+    <string name="vanilla">vanilla</string>
+    <string name="strawberry">strawberry</string>
+    <string name="button">button</string>
+    <string name="flavours" />
+    <string name="submit">Submit</string>
+    <string name="ruby">Ruby</string>
+    <string name="python">Python</string>
+    <string name="java">Java</string>
+    <string name="languages" />
+</resources>

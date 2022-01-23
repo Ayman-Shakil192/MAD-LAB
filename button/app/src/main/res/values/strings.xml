@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mad_lab</string>
+    <string name="button">Button</string>
+    <string name="BMSCE">BMSCE</string>
+    <string name="InputOne">Input Two</string>
+    <string name="InputTwo">InputTwo</string>
+    <string name="click_me">Click Me</string>
+</resources>

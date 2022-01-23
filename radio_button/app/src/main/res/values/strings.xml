@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">radio_button</string>
+<!--    <string name="c">C++</string>-->
+<!--    <string name="c">C++</string>-->
+    <string name="javascript">JavaScript</string>
+    <string name="react_js">React JS</string>
+    <string name="python">Python</string>
+    <string name="java">Java</string>
+    <string name="scala">Scala</string>
+</resources>

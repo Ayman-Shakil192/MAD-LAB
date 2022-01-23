@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">animations</string>
+    <string name="alert_dialog">Alert dialog</string>
+    <string name="bmsce">BMSCE</string>
+    <string name="fade">Fade</string>
+    <string name="rotate">Rotate</string>
+    <string name="move">Move</string>
+</resources>
