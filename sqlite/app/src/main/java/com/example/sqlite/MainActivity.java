@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 // on below line we are calling a method to add new
-                // course to sqlite data and pass all our values to it.
+                // books to sqlite data and pass all our values to it.
                 dbHandler.addNewBooks(BooksName, AuthorName, PatronName, Genre);
 
                 // after adding the data we are displaying a toast message.
