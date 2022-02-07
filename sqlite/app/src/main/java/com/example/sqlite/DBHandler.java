@@ -32,7 +32,7 @@ public class DBHandler extends SQLiteOpenHelper {
         db.execSQL(query);
     }
 
-    // this method is use to add new course to our sqlite database.
+    // this method is use to add new books to our sqlite database.
     public void addNewBooks(String BookName, String AuthorName, String PatronName, String Genre) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
