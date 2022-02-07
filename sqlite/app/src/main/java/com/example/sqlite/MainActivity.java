@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         // and passing our context to it.
         dbHandler = new DBHandler(MainActivity.this);
 
-        // below line is to add on click listener for our add course button.
+        // below line is to add on click listener for our add books button.
         addBooksBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
